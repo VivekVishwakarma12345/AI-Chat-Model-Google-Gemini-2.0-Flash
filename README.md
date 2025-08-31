@@ -54,7 +54,7 @@ To run the project, follow these steps:
 1. Clone the repository and navigate to the project directory.
 2. Run `mvn clean install` to build the project.
 3. Run `mvn spring-boot:run` to start the application.
-4. Access the chatbot by visiting `http://localhost:8080` in your web browser.
+4. Access the chatbot by visiting `http://localhost:8080/api/ai` in your web browser.
 
 🧪 Testing Instructions
 -------------------------
@@ -62,14 +62,15 @@ To run the project, follow these steps:
 To test the project, follow these steps:
 
 1. Clone the repository and navigate to the project directory.
-2. Run `mvn clean test` to run the unit tests.
-3. Run `mvn spring-boot:run` to start the application.
-4. Use a tool like Postman or cURL to send requests to the chatbot API.
+2. Run in CMD `java -jar AI-Chat-Model-Gemini-2.0-Flash.jar` for executable.jar file  
+3. Run `mvn clean test` to run the unit tests.
+4. Run `mvn spring-boot:run` to start the application.
+5. Use a tool like Postman or cURL to send requests to the chatbot API.
 
 📦 API Reference
 ----------------
 
-The chatbot API is documented using OpenAPI and is available at : POST `http://localhost:8080/api/ai`.
+The chatbot API is documented using OpenAPI - Google Gemini Key and is available at : POST `http://localhost:8080/api/ai`.
 
 👤 Author
 ---------
